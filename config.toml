@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "The Agency"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo.png"
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
@@ -75,9 +75,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    # title = "Welcome To Our Studio!"
+    subtitle = "Databases should not bottleneck delivery"
+    buttonText = "Learn more"
 
 
   # Services section
