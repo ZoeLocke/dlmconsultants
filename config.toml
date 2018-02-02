@@ -83,27 +83,28 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Our services"
+    subtitle = "We offer training and consulting services that will help you to bring DevOps to your database"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      #icon = "fa-shopping-cart"
+      icon = "dlm-health-check-01-tight-100px.png"
+	  title = "DLM Health Check"
+      description = "We'll spend two to four days with you and your team to learn about your current DLM processes and aspirations. Then we'll recommend some next steps."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "dlm-kickstarter-01-tight-100px.png"
+      title = "DLM Workshops"
+      description = "We partner with Redgate to provide you with the training and the tools that you need to get started with SQL Server version control, CI or release management."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "dlm-kickstarter-01-tight-100px.png"
+      title = "DLM Kickstarter"
+      description = "We'll help your team to set up database source control, CI and/or a deployment pipeline. We'll also provide training so they know how to use it effectively."
       url = "#"
 
   # Portfolio section
