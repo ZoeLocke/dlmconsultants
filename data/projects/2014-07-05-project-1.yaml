@@ -1,10 +1,10 @@
 modalID: 1
 title: NHS Wales
-subtitle: Overview of work or description of client
+subtitle: Some text
 date: 2014-07-05
 img: NWISLogo.png
 preview: NWISLogo.png
 client: NHS Wales
-clientLink: "http://www.wales.nhs.uk/"
-category: Public Sector
-description: We did.....
+clientLink: "#"
+category: Some Text
+description: Some Text
