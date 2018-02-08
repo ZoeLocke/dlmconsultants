@@ -206,17 +206,17 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Meet the DLM Consultants"
+    subtitle = "We can help you deliver updates regularly and reliably"
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
+      img = "Alex.jpg"
+      name = "Alex Yates"
+      position = "DevOps Expert, Principal Consultant, Microsoft Data Platform MVP"
       reportsTo = "CTO"
       livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
@@ -225,37 +225,35 @@ googleAnalytics = ""
         "Open Source [community management](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Alex has been helping organisations to apply DevOps principles to relational database development and deployment since 2010. He's most proud of helping Skyscanner develop the ability to deploy 95 times a day. Originally for Redgate, later for DLM Consultants, Alex has worked with clients on every continent except Antarctica - so he's keen to meet anyone who researches penguins. A keen community member, he co-organises the London Continuous Delivery meetup and SQL Relay."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/_AlexYates_"],
+        #["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/alexanderyates/"]
       ]
-
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+	  
+	  [[params.team.members]]
+      img = "Rob.jpg"
+      name = "Rob Sewell"
+      position = "SQL Server DBA and PowerShell guru, Microsoft CDM MVP"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
       ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      # For bio markdown and even multiline strings are available.
+      bio = "Rob is a SQL Server DBA with a passion for Powershell, Azure, Automation, and SQL Server. Rob works with clients to enable automation, SQL Server best practices and DevOps. He is most proud of being able to test several thousand database backup settings in only a few minutes using PowerShell and of being a founder of the popular open source module dbatools. He is an officer for the PASS PowerShell Virtual Chapter and has spoken at and volunteered at many events."
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/sqldbawithbeard"],
+        #["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/robsewellsqldba"]
       ]
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
