@@ -177,6 +177,15 @@ section h4.service-heading > a {
 	margin: auto;
 }
 
+.timeline>li .timeline-image {
+    border: none;
+    background-color: transparent;
+}
+
+.shubheading, .timeline-heading {
+	color: #EF962E;
+}
+
 /* --------------- Text --------------- */
 p.text-muted {
 	font-family: 'Lato', sans-serif;

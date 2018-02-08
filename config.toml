@@ -127,37 +127,79 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "What people say about us"
+    subtitle = ""
+    endpoint = ""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
+	
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "BrentOzar.png"
+      #date = "2009-2011"
+      title = "Brent Ozar, SQL Server DBA Consultant, Brent Ozar Unlimited"
+      description = "Adopting DevOps involves making difficult, hard-to-reverse changes. You'll change dev processes, introduce new tooling, reform database processes, and train your staff on things that may not seem beneficial at first. You don't want to do this twice. You need people who have done this before, listen well, and communicate the right information to your team at the right time. Those people are the DLM Consultants."
 
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
+	[[params.about.events]]
+      img = "PenchoBelneyski.jpg"
+      #date = "2009-2011"
+      title = "Pencho Belneyski, Release Manager, United Nations Office for Project Services"
+      description = "We booked a DLM Kickstarter with DLM Consultants. It was tremendously valuable to have Alex pair with me as I got my head around Bamboo, tSQLt and the various DB automation tools. He was passionate about getting our PoC working and clearly explained the pros/cons of different strategies. Without his support it would have taken us much longer to put together a working solution. I highly recommend DLM Consultants."
+	  
+	[[params.about.events]]
+      img = "SteveJones.jpg"
+      #date = "2009-2011"
+      title = "Steve Jones, Editor of SQLServerCentral.com, Editor at Redgate Software"
+      description = "The idea of DLM is simple, but the cultural changes required can be difficult to make. DLM Consultants have the experience to guide your organization through the effort. The workshops that they built with Redgate give you just in time training with implementing DLM. I would recommend DLM Consultants as a valuable resource for any company wanting a more efficient database development process."
+	  
+	[[params.about.events]]
+      img = "GrantFritchey.jpg"
+      #date = "2009-2011"
+      title = "Grant Fritchey, PASS Executive Vice-President, Product Evangelist at Redgate Software and generally Scary DBA"
+      description = "Alex stood out for two significant reasons. First, he learned the technology and possible applications of it quickly. Working with him was a joy because he could contribute meaningfully to my own and others work as well as his own. Second, Alex brought strong and passionate presentation skills making it easier for our team to communicate our ideas, methods and approaches. I'd happily work with him again."
+	  
+	[[params.about.events]]
+      img = "RaeEllingham.jpg"
+      #date = "2009-2011"
+      title = "Rae Ellingham, Senior Developer at Car Care Plan"
+      description = "Alex’s knowledge and experience is exemplary. His workshop delivery is both enjoyable and educational; an engaging mix of presentation and hands on participation, as you work through the steps on a VM under his patient tutorage. I met all my objectives and more, being able to confidently reprise the exercises on my native systems over subsequent days. I have no hesitation in recommending DLM Workshops."
+	  
+	[[params.about.events]]
+      img = "BobWalker.jpg"
+      #date = "2009-2011"
+      title = "Bob Walker, Founder of CodeAperture.io, Lead Application Developer at Farm Credit Services of America"
+      description = "Within a few minutes, it was apparent Alex knew his stuff. Each company he has had to work with is unique. He knew how to apply the Redgate tooling to solve our problems. Alex knew to ask the right questions to ensure the solution would work. He could easily have force fed a solution, but he didn’t. DLM Consultants’ Kick-starter package is based on our engagement. Highly recommended."
+	  
+	[[params.about.events]]
+      img = "JanMulkens.jpg"
+      #date = "2009-2011"
+      title = "Jan Mulkens, Microsoft BI consultant, Ordina"
+      description = "At the end of this workshop it becomes very clear to you that you now have all the tools that you need to start automatically delivering code up to or even including to production environments in a very controlled method. You’ll learn about best practices related to DLM and how to implement and work with standard DLM tools. I would certainly recommend you to attend all 3 workshops."
+	
+	[[params.about.events]]
+      img = "DmytroAndriychenko.jpg"
+      #date = "2009-2011"
+      title = "Dmytro Andriychenko, Lead developer at Rabobank"
+      description = "Alex really impressed me with his profound insight into a broad range of CI products on the market, not merely Redgate offering. His customers can rest assured that the solution he offers is actually what truly fits the business: he takes pride in his integrity and informed advice. He can offer well-rounded, appropriate solutions to software development life cycle problems, and he does that really well. True asset on any team."
+	  
+	[[params.about.events]]
+      img = "JohnMorehouse.jpg"
+      #date = "2009-2011"
+      title = "John Morehouse, PASS Regional Mentor, Database Architect at Farm Credit Mid-America"
+      description = "Alex is extremely knowledgeable in this field as well as very easy to work with. Regardless if he was dealing with database administrators, developers, or management, he was easily able to convey important concepts & key take aways. This was critical as there were many touch points. I'd highly recommend any organization to work with him. You won't regret it."
+	  
+	[[params.about.events]]
+      img = "SjorsTakes.jpg"
+      #date = "2009-2011"
+      title = "Sjors Takes, Senior DBA at AlbumPrinter, Blogger at DevOpsDBA.com"
+      description = "Alex is like a good teacher, he really wants you to understand how things work and he teaches patiently. I met Alex only three weeks ago at a continuous integration workshop. Afterwards, in the process of setting things up at the company I work for, he was really supportive. I never had the feeling he was trying to sell me the product. He just wanted me to understand and make the product work."
+	  
+	[[params.about.events]]
+      img = "CihanUcar.jpg"
+      #date = "2009-2011"
+      title = "Cihan Ucar, Senior Software Architekt, VAT Vakuumventile AG"
+      description = "DLM Consultants helped us take our first steps with Database DevOps. We produced a POC and presented it to the wider team. Even the skeptics could see the value. We had a roadmap and could taste our reward. They also warned that the journey will be hard, which demonstrates DLM Consultants' integrity. We highly recommend DLM Consultants to anyone who wants highly professional database DevOps consulting."
 
   # Team section
   [params.team]
