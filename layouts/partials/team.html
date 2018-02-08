@@ -15,11 +15,12 @@
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
             <h3 class="team-bio">{{ .name | markdownify }}</h3>
 
-			<!--
             {{ with .position }}
 			<h4>{{ . | markdownify }}</h4>
             {{ end }}
-            {{ with .reportsTo }}
+            
+			<!--
+			{{ with .reportsTo }}
             <h5 class="report">Reports to {{ . | markdownify }}</h5>
             {{ end }}
 

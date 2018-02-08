@@ -9,7 +9,7 @@
 /* HOME PAGE HEADER SECTION */
 
 /* --------------- CTA Button --------------- */
-.btn-xl {
+.btn-xl{
     padding: 15px 35px;
     border-color: #EF962E;
     border-radius: 3px;
@@ -182,10 +182,6 @@ section h4.service-heading > a {
     background-color: transparent;
 }
 
-.timeline-heading {
-	color: #EF962E;
-}
-
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
@@ -207,7 +203,12 @@ h3.team-bio {
 	padding: 0;
 }
 
-/* --------------- Boxes --------------- */
+
+.timeline-heading {
+	color: #EF962E;
+}
+
+/* --------------- Other --------------- */
 .flexbox {
 	margin-left: auto;
 	margin-right: auto;

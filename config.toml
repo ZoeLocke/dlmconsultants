@@ -282,7 +282,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = ""
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -303,7 +303,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "enquiries@dlmconsultants.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -319,7 +319,7 @@ googleAnalytics = ""
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "Your Phone"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
@@ -338,27 +338,27 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Copyright © 2016 DLM Consultants Limited. All rights reserved. Registered in England, Number 10240685 | Registered Office: 64 Cyprian Rust Way, Soham, Ely, Cambridgeshire, United Kingdom, CB7 5ZE"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/DLM_Consultants"
       title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/dlmconsultants/"
       title = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/company/dlm-consultants"
       title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Privacy Policy"
+    #  link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Terms of Use"
+    #  link = "#"
