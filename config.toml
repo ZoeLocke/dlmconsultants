@@ -50,8 +50,8 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logo.png"
     services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
+    portfolio = "Clients"
+    about = "Testimonials"
     team = "Team"
     contact = "Contact"
 
