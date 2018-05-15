@@ -31,7 +31,7 @@
 
 	<!--Amended to remove link and expanded details as per orignal site-->
 	{{ range .Site.Data.projects }}
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-2 portfolio-item">
           <span href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
 		    {{ $url := printf "img/portfolio/%s" .preview }}
             <img src="{{ $url | absURL }}" class="img-responsive" alt="">
