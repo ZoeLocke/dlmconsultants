@@ -171,6 +171,15 @@ section h4.service-heading > a {
     color: #EF962E;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #EF962E;
+    background-color: #EF962E;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(34, 34, 34, 0.75);
+}
 /* --------------- Images --------------- */
 
 .img-responsive {
@@ -188,6 +197,10 @@ ul.social-buttons li a:active {
     background-color: #EF962E;
 }
 
+.img-circle {
+  border-radius: 50%;
+  border: none;
+}
 /* --------------- Text --------------- */
 p.text-muted, .team-bio {
 	font-family: 'Lato', sans-serif;

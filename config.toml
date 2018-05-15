@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "DLM Consultants"
+  description = "Databases should not bottleneck delivery"
 
   # Link custom assets relative to /static
   custom_css = ["css/custom.css"]
@@ -64,12 +64,6 @@ googleAnalytics = ""
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
-
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
 
 
   # Hero section
