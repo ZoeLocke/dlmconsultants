@@ -58,7 +58,7 @@
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: rgba(34, 34, 34, 0.75);
+        background-color: #767676;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -77,7 +77,7 @@
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #767676;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
