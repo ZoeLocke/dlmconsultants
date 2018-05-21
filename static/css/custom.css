@@ -28,7 +28,24 @@
 .open .dropdown-toggle.btn-xl {
     border-color: transparent;
     color: #EF962E;
-    background-color: rgba(34, 34, 34, 0.75);
+    background-color: #767676;
+}
+
+.btn-mid{
+	display: block;
+	color: #EF962E;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.btn-mid:hover,
+.btn-mid:focus,
+.btn-mid:active,
+.btn-mid.active,
+.open .dropdown-toggle.btn-mid {
+    border-color: transparent;
+    color: #767676;
+    background-color: transparent;
 }
 
 /* --------------- Navbar logo --------------- */

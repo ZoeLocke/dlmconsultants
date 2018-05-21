@@ -111,7 +111,6 @@ googleAnalytics = ""
     # For more informtion take a look at the README.
     title = "Some of our clients"
     #subtitle = " "
-
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
@@ -125,6 +124,7 @@ googleAnalytics = ""
     title = "What people say about us"
     subtitle = ""
     endpoint = ""
+	buttonText = "Read even more!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.

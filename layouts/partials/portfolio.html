@@ -8,7 +8,6 @@
       </div>
     </div>
     <div class="row">
-
 	<!--
       {{ range .Site.Data.projects }}
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -21,23 +20,28 @@
             {{ $url := printf "img/portfolio/%s" .preview }}
             <img src="{{ $url | absURL }}" class="img-responsive" alt="">
           </a>
+		  
 		  <div class="portfolio-caption">
             <h4>{{ .title | markdownify }}</h4>
             <p class="text-muted">{{ .category | markdownify }}</p>
           </div>
+		  
         </div>
       {{ end }}
 	-->
-
-	<!--Amended to remove link and expanded details as per orignal site-->
+	
 	{{ range .Site.Data.projects }}
         <div class="col-md-4 col-sm-2 portfolio-item">
-          <span href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+			<!--
+		 <span href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
 		    {{ $url := printf "img/portfolio/%s" .preview }}
             <img src="{{ $url | absURL }}" class="img-responsive" alt="">
           </span>
+		  -->
+		  <img src="{{ $url | absURL }}" class="img-responsive" alt="">
         </div>
       {{ end }}
+	  
 	
     </div>
   </div>
