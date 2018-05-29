@@ -141,30 +141,36 @@ googleAnalytics = ""
       #date = "2009-2011"
       title = "Pencho Belneyski, Release Manager, United Nations Office for Project Services"
       description = "We booked a DLM Kickstarter with DLM Consultants. It was tremendously valuable to have Alex pair with me as I got my head around Bamboo, tSQLt and the various DB automation tools. He was passionate about getting our PoC working and clearly explained the pros/cons of different strategies. Without his support it would have taken us much longer to put together a working solution. I highly recommend DLM Consultants."
-	  
+    
 	[[params.about.events]]
-      img = "SteveJones.jpg"
+      img = "SteveCornwell.jpg"
       #date = "2009-2011"
-      title = "Steve Jones, Editor of SQLServerCentral.com, Editor at Redgate Software"
-      description = "The idea of DLM is simple, but the cultural changes required can be difficult to make. DLM Consultants have the experience to guide your organization through the effort. The workshops that they built with Redgate give you just in time training with implementing DLM. I would recommend DLM Consultants as a valuable resource for any company wanting a more efficient database development process."
+      title = "Steve Cornwell, Enterprise Database Developer at Farm Credit Mid-America, ex-Microsoft employee"
+      description = "Our implementation of DLM ranks as the most beneficial infrastructure project that I’ve witnessed in my 26-year IT career. Database deployments no longer represent a bottleneck in our software delivery process. The process improvements realized by this technology touch all team members. Developers, QAs & DBAs communicate as releases move through the pipeline. DLM makes us more productive."
+	
+#    [[params.about.events]]
+#      img = "SteveJones.jpg"
+#      #date = "2009-2011"
+#      title = "Steve Jones, Editor of SQLServerCentral.com, Editor at Redgate Software"
+#      description = "The idea of DLM is simple, but the cultural changes required can be difficult to make. DLM Consultants have the experience to guide your organization through the effort. The workshops that they built with Redgate give you just in time training with implementing DLM. I would recommend DLM Consultants as a valuable resource for any company wanting a more efficient database development process."
 	  
-	[[params.about.events]]
-      img = "GrantFritchey.jpg"
-      #date = "2009-2011"
-      title = "Grant Fritchey, PASS Executive Vice-President, Product Evangelist at Redgate Software and generally Scary DBA"
-      description = "Alex stood out for two significant reasons. First, he learned the technology and possible applications of it quickly. Working with him was a joy because he could contribute meaningfully to my own and others work as well as his own. Second, Alex brought strong and passionate presentation skills making it easier for our team to communicate our ideas, methods and approaches. I'd happily work with him again."
+#	[[params.about.events]]
+#      img = "GrantFritchey.jpg"
+#      #date = "2009-2011"
+#      title = "Grant Fritchey, PASS Executive Vice-President, Product Evangelist at Redgate Software and generally Scary DBA"
+#      description = "Alex stood out for two significant reasons. First, he learned the technology and possible applications of it quickly. Working with him was a joy because he could contribute meaningfully to my own and others work as well as his own. Second, Alex brought strong and passionate presentation skills making it easier for our team to communicate our ideas, methods and approaches. I'd happily work with him again."
 	  
-	[[params.about.events]]
-      img = "RaeEllingham.jpg"
-      #date = "2009-2011"
-      title = "Rae Ellingham, Senior Developer at Car Care Plan"
-      description = "Alex’s knowledge and experience is exemplary. His workshop delivery is both enjoyable and educational; an engaging mix of presentation and hands on participation, as you work through the steps on a VM under his patient tutorage. I met all my objectives and more, being able to confidently reprise the exercises on my native systems over subsequent days. I have no hesitation in recommending DLM Workshops."
+#	[[params.about.events]]
+#      img = "RaeEllingham.jpg"
+#      #date = "2009-2011"
+#      title = "Rae Ellingham, Senior Developer at Car Care Plan"
+#      description = "Alex’s knowledge and experience is exemplary. His workshop delivery is both enjoyable and educational; an engaging mix of presentation and hands on participation, as you work through the steps on a VM under his patient tutorage. I met all my objectives and more, being able to confidently reprise the exercises on my native systems over subsequent days. I have no hesitation in recommending DLM Workshops."
 	  
-	[[params.about.events]]
-      img = "BobWalker.jpg"
-      #date = "2009-2011"
-      title = "Bob Walker, Founder of CodeAperture.io, Lead Application Developer at Farm Credit Services of America"
-      description = "Within a few minutes, it was apparent Alex knew his stuff. Each company he has had to work with is unique. He knew how to apply the Redgate tooling to solve our problems. Alex knew to ask the right questions to ensure the solution would work. He could easily have force fed a solution, but he didn’t. DLM Consultants’ Kick-starter package is based on our engagement. Highly recommended."
+#	[[params.about.events]]
+#      img = "BobWalker.jpg"
+#      #date = "2009-2011"
+#      title = "Bob Walker, Founder of CodeAperture.io, Lead Application Developer at Farm Credit Services of America"
+#      description = "Within a few minutes, it was apparent Alex knew his stuff. Each company he has had to work with is unique. He knew how to apply the Redgate tooling to solve our problems. Alex knew to ask the right questions to ensure the solution would work. He could easily have force fed a solution, but he didn’t. DLM Consultants’ Kick-starter package is based on our engagement. Highly recommended."
 	  
 #	[[params.about.events]]
 #      img = "JanMulkens.jpg"
