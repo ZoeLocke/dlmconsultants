@@ -2,7 +2,7 @@
 baseurl = "https://dlmconsultants.netlify.com/"
 languageCode = "en-us"
 title = "DLM Consultants"
-subtitle = "Databases should not bottleneck delivery"
+subtitle = "Database Lifecycle Management: Bringing DevOps to relational databases in a legal and responsible way"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,7 +19,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "DLM Consultants"
-  description = "Databases should not bottleneck delivery"
+  description = "Database Lifecycle Management: Bringing DevOps to relational databases in a legal and responsible way"
 
   # Link custom assets relative to /static
   custom_css = ["css/custom.css"]
@@ -71,7 +71,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     # title = "Welcome To Our Studio!"
-    subtitle = "Databases should not bottleneck delivery"
+    subtitle = "Database Lifecycle Management: Bringing DevOps to relational databases in a legal and responsible way"
     buttonText = "Learn more"
 
 
