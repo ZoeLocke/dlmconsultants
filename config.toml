@@ -91,7 +91,7 @@ googleAnalytics = ""
       url = "#"
 
     [[params.services.row.list]]
-      icon = "dlm-kickstarter-01-tight-100px.png"
+      icon = "dlm-workshop-01-tight-100px.png"
       title = "DLM Workshops"
       description = "We partner with Redgate to provide you with the training and the tools that you need to get started with SQL Server version control, CI or release management."
       url = "#"
