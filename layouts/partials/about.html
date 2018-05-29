@@ -39,8 +39,42 @@
         </ul>
       </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
  
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">See more</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        {{ range $i, $e := .Site.Params.about.events }}
+        <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
+          <div class="timeline-image">
+            {{ $url := printf "img/about/%s" .img }}
+            <img class="img-circle img-responsive" src="{{ $url | absURL }}" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>{{ .date }}</h4>
+              <h4 class="shubheading">{{ .title | markdownify }}</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">{{ .description  | markdownify }}</p>
+            </div>
+          </div>
+        </li>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 <a href="#services" class="btn-mid page-scroll btn btn-xl">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
 </section>
 
+
+</div>
