@@ -216,9 +216,12 @@ ul.social-buttons li a:active {
     background-color: #EF962E;
 }
 
-.img-circle {
-  border-radius: 50%;
-  border: none;
+.team-member img {
+	border-color: transparent;
+}
+
+::selection {
+	background: transparent;
 }
 /* --------------- Text --------------- */
 p.text-muted, .team-bio {
