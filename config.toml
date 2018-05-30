@@ -251,6 +251,25 @@ googleAnalytics = ""
         #["fa-facebook", "#"],
         ["fa-linkedin", "https://www.linkedin.com/in/robsewellsqldba"]
       ]
+      
+	  [[params.team.members]]
+      img = "Rob.jpg"
+      name = "Gerry Leith"
+      position = "Provisioning, masking, data privacy and the GDPR"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie, libero fringilla iaculis vulputate, ex ligula suscipit mauris, non facilisis nisi mi et magna. Ut id cursus enim. Pellentesque et magna quam. Nunc gravida dui a ipsum laoreet, vitae pellentesque ante suscipit. Maecenas elementum est eget justo convallis blandit. Vestibulum eleifend libero massa, eget tincidunt est cursus non. Sed a ultricies enim. Proin consequat sagittis massa nec semper."
+      social = [
+        ["fa-twitter", "https://twitter.com/sqldbawithbeard"],
+        #["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/robsewellsqldba"]
+      ]
 
   # Client section
     [params.clients_list]
