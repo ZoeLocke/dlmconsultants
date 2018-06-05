@@ -1,25 +1,34 @@
-{{ "<!-- Services -->" | safeHTML }}
-<section id="services">
+{{ "<!-- Portfolio Grid Section -->" | safeHTML }}
+<section id="portfolio" class="bg-white">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
         <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
-    {{ range .Site.Params.services.row }}
-      <div class="row text-center">
-        {{ range .list }}
-          <div class="col-md-4">
-            <span>
-			{{ $url := printf "img/%s" .icon }}
-            <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .title }}">
-            </span>
-            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
-            <p class="text-muted">{{ .description | markdownify }}</p>
+    <div class="row">
+      {{ range .Site.Data.services }}
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+			<div class="portfolio-hover">
+			  <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            {{ $url := printf "img/services/%s" .preview }}
+            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+          </a>
+		  
+		  <div class="portfolio-caption">
+            <h4>{{ .title | markdownify }}</h4>
+            <p class="text-muted">{{ .subtitle | markdownify }}</p>
           </div>
-        {{ end }}
-      </div>
-    {{ end }}
+		  
+        </div>
+      {{ end }}
+	  
+	
+    </div>
   </div>
 </section>
