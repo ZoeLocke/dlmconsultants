@@ -7,4 +7,29 @@ preview: dlm-health-check-01-tight-100px.png
 client: ""
 clientLink: "#"
 category: ""
-description: "<h1>tl;dr</h1><p>DLM Consultants can help you to deliver database updates more regularly and more reliably. Start your journey with a DLM Health Check.</p><p>Below you will find a description of a typical DLM Health Check, a case study of an actual DLM Health Check at Farm Credit Mid-America, a testimonial, pricing, availability and contact details.</p><h1>Overview</h1><p>Database Lifecycle Management (DLM) is the way an organisation makes database changes and maintains them. The DevOps and Continuous Delivery movements have proven the value of various patterns and practices associated with managing code changes, both at a human and a technical level, for example:</p><ul><li>Collaboration between people with different roles, skills and from different teams.</li><li>Rock solid source control processes.</li><li>Formal (preferably automated) testing and deployment processes.</li><li>Detailed monitoring and alerting.</li><li>Fast feedback loops, rapid iteration, quick cycle time.</li></ul><p>At the same time, increasingly stringent data protection regulations such as SOX, HIPAA and the GDPR put various restrictions on us. We need to be able to demonstrate that we are keeping the data secure. The patterns mentioned above will help but we also need to consider:</p><ul><li>Data access controls in production.<li>Data masking/cleansing for dev/test databases.</ul><p>Typically, organisations are poor at DLM. Most are not confident that their database source code is in sync with production. They have few (if any) automated tests. Their database deployments are manual. Their development teams and DBA teams are not good at working together. Sometimes they are using sensitive production data in dev.</p><p>The result of these poor DLM practices is failed database deployments, broken database code, ugly and monolithic production databases and, occasionally, data breaches.</p><p>Our DLM Health Check package is designed to show a customer how they can improve the way they manage their database changes. We will not come in and do your DLM for you, because that doesn’t make any sense. We will help you to work more effectively together to achieve your own goals.</p><p><i>Simply put, we will help you to deliver database updates more regularly and more reliably.</i></p>"
+description: "
+<p>Database Lifecycle Management (DLM) is the way an organisation makes database changes and maintains them. The DevOps and Continuous Delivery movements have proven the value of various patterns and practices associated with managing code changes, both at a human and a technical level, for example:</p>
+
+<ul>
+	<li>Collaboration between people with different roles, skills and from different teams.</li>
+	<li>Rock solid source control processes.</li>
+	<li>Formal (preferably automated) testing and deployment processes.</li>
+	<li>Detailed monitoring and alerting.</li>
+	<li>Fast feedback loops, rapid iteration, quick cycle time.</li>
+</ul>
+
+<p>At the same time, increasingly stringent data protection regulations such as SOX, HIPAA and the GDPR put various restrictions on us. We need to be able to demonstrate that we are keeping the data secure. The patterns mentioned above will help but we also need to consider:</p>
+
+<ul>
+	<li>Data access controls in production.</li>
+	<li>Data masking/cleansing for dev/test databases.</li>
+</ul>
+
+<p>Typically, organisations are poor at DLM. Most are not confident that their database source code is in sync with production. They have few (if any) automated tests. Their database deployments are manual. Their development teams and DBA teams are not good at working together. Sometimes they are using sensitive production data in dev.</p>
+
+<p>The result of these poor DLM practices is failed database deployments, broken database code, ugly and monolithic production databases and, occasionally, data breaches.</p>
+
+<p>Our DLM Health Check package is designed to show a customer how they can improve the way they manage their database changes. We will not come in and do your DLM for you, because that doesn’t make any sense. We will help you to work more effectively together to achieve your own goals.</p>
+
+<p><i>Simply put, we will help you to deliver database updates more regularly and more reliably.</i></p>
+"
