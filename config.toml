@@ -115,7 +115,7 @@ googleAnalytics = ""
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Back"
+      buttonText = "Contact us to learn more!"
 
 
     # About section
