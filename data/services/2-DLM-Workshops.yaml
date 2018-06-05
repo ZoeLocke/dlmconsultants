@@ -8,19 +8,19 @@ client: ""
 clientLink: "#"
 category: ""
 description: "
-<p>DLM Consultants believe in equipping people to manage their own Database DevOps pipelines. Our DLM Workshops are a series of three training days designed to teach the fundamentals of Database Lifecycle Management (DLM). Since we believe the best way to learn is to do, during each workshop every attendee will implement what they’ve learned in their own VM sandbox, hosted by us.</p>
+<p class='text-muted portfolio'>DLM Consultants believe in equipping people to manage their own Database DevOps pipelines. Our DLM Workshops are a series of three training days designed to teach the fundamentals of Database Lifecycle Management (DLM). Since we believe the best way to learn is to do, during each workshop every attendee will implement what they’ve learned in their own VM sandbox, hosted by us.</p>
 
-<p>We’ve broken the content into three full day workshops:</p>
+<p class='text-muted portfolio'>We’ve broken the content into three full day workshops:</p>
 
-<ul>
-    <li>Day 1: Database provisioning and source control *Now with Redgate SQL Clone* – course outline</li>
-    <li>Day 2: Database continuous integration – course outline</li>
-    <li>Day 3: Database release management – course outline</li>
+<ul class='portfolio'>
+    <li class='text-muted portfolio'>Day 1: Database provisioning and source control *Now with Redgate SQL Clone* – course outline</li>
+    <li class='text-muted portfolio'>Day 2: Database continuous integration – course outline</li>
+    <li class='text-muted portfolio'>Day 3: Database release management – course outline</li>
 </ul>
 
-<p>Attendees are welcome to attend the full series or just one or two workshops. Each month we’ll run the full series on consecutive days. That way attendees can attend all three in one go or attend one each month, taking breaks to implement and practice what they’ve learned at each stage.</p>
+<p class='text-muted portfolio'>Attendees are welcome to attend the full series or just one or two workshops. Each month we’ll run the full series on consecutive days. That way attendees can attend all three in one go or attend one each month, taking breaks to implement and practice what they’ve learned at each stage.</p>
 
-<p>We’ve teamed up with Redgate to create these workshops and we’ll use Redgate’s SQL Toolbelt, along with many other tools including Git, NuGet, TeamCity and Octopus Deploy. We can also provide workshops using VSTS upon request. The principles and techniques, however, are applicable regardless of the software you happen to use. Jan Mulkins (quoted above), for exampe, used SSDT instead of Redgate.</p>
+<p class='text-muted portfolio'>We’ve teamed up with Redgate to create these workshops and we’ll use Redgate’s SQL Toolbelt, along with many other tools including Git, NuGet, TeamCity and Octopus Deploy. We can also provide workshops using VSTS upon request. The principles and techniques, however, are applicable regardless of the software you happen to use. Jan Mulkins (quoted above), for exampe, used SSDT instead of Redgate.</p>
 
-<p>While we do occasionally hold traditional on-site workshops, in order to make our workshops accessible to as many people as possible we run the full series online at least once per month. This reduces costs for everyone, and allows attendees to join from their homes or their offices anywhere in the world.</p>
+<p class='text-muted portfolio'>While we do occasionally hold traditional on-site workshops, in order to make our workshops accessible to as many people as possible we run the full series online at least once per month. This reduces costs for everyone, and allows attendees to join from their homes or their offices anywhere in the world.</p>
 "
