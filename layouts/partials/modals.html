@@ -12,22 +12,24 @@
         <div class="row" style="padding-right:100px;">
           <div class="col-lg-24 col-lg-offset-2">
             <div class="modal-body">
+			
+			
               <!--<h2>{{ .title  | markdownify }}</h2>-->
               {{ $url := printf "img/services/%s" .img }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="" style="width:60%">
 			  <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
 			  <p>{{ .description | markdownify }}</p>
-              <ul class="list-inline">
-                <!--
+              <!--
+			  <ul class="list-inline">
 				<li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
                 <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
                 <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
-				-->
               </ul>
-              <!--
 			  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>-->
 			  <a href="#contact" data-dismiss="modal" class="modal-contact-link">{{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</a>
-            </div>
+            
+			
+			</div>
           </div>
         </div>
       </div>

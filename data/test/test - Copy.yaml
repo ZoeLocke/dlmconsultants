@@ -1,0 +1,31 @@
+modalID: 2
+title: DLM Health Check
+subtitle: We'll spend about a week with you and your team to learn about your current DLM processes and aspirations. Then we'll recommend some next steps.
+date: 2014-07-06
+img: DLMHealthCheckMain.png
+preview: dlm-health-check-01-tight-100px.png
+client: ""
+clientLink: "#"
+category: ""
+description: "
+<p class='text-muted portfolio'>Database Lifecycle Management (DLM) is the way an organisation makes database changes and maintains them. The DevOps and Continuous Delivery movements have proven the value of various patterns and practices associated with managing code changes, both at a human and a technical level, for example:</p>
+
+<ul class='portfolio'>
+	<li class='text-muted portfolio'>Collaboration between people with different roles, skills and from different teams.</li>
+	<li class='text-muted portfolio'>Rock solid source control processes.</li>
+	<li class='text-muted portfolio'>Formal (preferably automated) testing and deployment processes.</li>
+	<li class='text-muted portfolio'>Detailed monitoring and alerting.</li>
+	<li class='text-muted portfolio'>Fast feedback loops, rapid iteration, quick cycle time.</li>
+</ul>
+
+<p class='text-muted portfolio'>At the same time, increasingly stringent data protection regulations such as SOX, HIPAA and the GDPR put various restrictions on us. We need to be able to demonstrate that we are keeping the data secure. The patterns mentioned above will help but we also need to consider:</p>
+
+<ul class='portfolio'>
+	<li class='text-muted portfolio'>Data access controls in production.</li>
+	<li class='text-muted portfolio'>Data masking/cleansing for dev/test databases.</li>
+</ul>
+
+<p class='text-muted portfolio'>Our DLM Health Check package is designed to show a customer how they can improve the way they manage their database changes. We will not come in and do your DLM for you, because that doesn’t make any sense. We will help you to work more effectively together to achieve your own goals.</p>
+
+<p class='text-muted'><i>Simply put, we will help you to deliver database updates more regularly and more reliably.</i></p>
+"

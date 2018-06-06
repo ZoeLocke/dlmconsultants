@@ -20,27 +20,30 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ .date }}</h4>
-                  <h4 class="shubheading">{{ .title | markdownify }}</h4>
+                  <h4 class="subheading">{{ .title | markdownify }}</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">{{ .description  | markdownify }}</p>
                 </div>
               </div>
             </li>
-          {{ end }}
-
-          <!--
+          {{ end }} 
+		  <!--
 		  <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
             </div>
           </li>
-		  -->
+		-->
         </ul>
       </div>
     </div>
   </div>
+
+<div class="col-lg-12 text-center modal-text-button portfolio-item">
+	<a href="#testimonialModal" class="modal-text-button" data-toggle="modal">Read even more!</a>
+</div>
+
  
-<a href="#services" class="btn-mid page-scroll btn btn-xl">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
 </section>
 
