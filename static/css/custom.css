@@ -273,6 +273,7 @@ ul.portfolio {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+	border-radius: 5px;
 }
 
 
@@ -296,21 +297,16 @@ a.modal-contact-link {
 	padding: 14px 14px;
 	text-align: center;
 	display: inline-block;
+	border-radius: 5px;
 }
 
 a.modal-contact-link:hover {
 	background-color: #767676;
 	color: #EF962E;
+	
 }
 
-.portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0.5;
-}
-
-.test {
-    padding-right: 100px;
-}
+.
 /* --------------- Other --------------- */
 .flexbox {
 	margin-left: auto;
